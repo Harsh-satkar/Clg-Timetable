@@ -1,8 +1,8 @@
 // firebase.js
-dotenv.config();
+
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore"; 
-import dotenv from 'dotenv';
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyDGLfo5fSsnDNwg-m6lgu95zFSBv2xFxeg",
